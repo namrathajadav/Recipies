@@ -1,0 +1,52 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  /* background-color: #111; */
+}
+
+.right {
+  right: 0;
+  /* background-color: red; */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* color:red; */
+}
+
+.right h4{
+    color:purple;
+}
+
+.right ul li{
+    font-size:16px;
+    color:purple;
+    list-style-type: disc;
+}
+
+.right h5{
+    color:red;
+}
+
+.right ul .lists{
+    font-size:16px;
+    color:purple;
+    list-style-type: disc;
+    margin-left:'-100px';
+}
+.right h6{
+    color:red;
+}

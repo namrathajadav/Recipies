@@ -1,0 +1,12 @@
+.card {
+        width: 300px;
+        padding: 20px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+        backdrop-filter: blur(10px); /* Blur background behind card */
+        -webkit-backdrop-filter: blur(10px); /* Safari support */
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        color: white;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
